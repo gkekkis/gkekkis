@@ -1,4 +1,4 @@
-**Hi there 👋, I'm George Kekkis and**
+**Hi there 👋, I'm George and**
 - 👀 I’m interested in Applications of **Natural Language Processing** in various domains such as **Computer Science**, **Society** and **Finance**.
 - 👨‍💼: I’m currently working on **Pretraining** and **Natural Language Processing** in **Finance**.
 - 🌱 I’m currently learning **Relational Databases**, **Bash scripting** and **Git**.
