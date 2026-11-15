@@ -1,73 +1,47 @@
 # George Kekkis
 
-**NLP Engineer · RAG & Chatbots · Applied ML**
+**AI Tech Lead · Applied AI/NLP Engineer · Production LLM & Multi-Agent Systems**
 
-I build practical Natural Language Processing systems—especially for **Greek and English**—spanning **RAG chatbots, document intelligence, financial NLP**, and **ML ops on Azure**. My recent work includes analyzing **SEC/annual reports**, **permit productivity analytics**, and **large‑scale news scraping**. I care a lot about **evaluation, reliability, and debiasing** in LLMs.
+I design and build **production AI systems**—from RAG and agentic workflows to secure, low-latency LLM applications. I lead engineers while staying hands-on with Python, system architecture, evaluation, and production operations, primarily in financial services.
 
----
+I care about **simple designs, measurable quality, reliability, and security**.
 
-## What I’m focused on now
+## What I work on
 
-* **Domain pretraining & adaptation** on **companies’ annual reports** (financial NLP).
-* **Trustworthy RAG**: retrieval quality, hallucination mitigation, prompt+context optimization, and evaluation.
-* **Production ML** on **Azure (AKS)**: deploying LLMs, clustering, and sentence‑transformers workloads.
-* **MLOps / Dataiku**: XGBoost regression with **outlier detection** and **explainability** at inference time.
-* **Robust web scraping** pipelines with CAPTCHA detection/handling and IP rotation.
-* **Django** blogging and lightweight tools for content and data projects.
+- **Multi-agent systems:** agent orchestration, tool use, memory, state management, and resilient workflows.
+- **Enterprise RAG:** hybrid retrieval, access-aware search, semantic FAQs, grounded responses, and retrieval evaluation.
+- **Secure AI:** zero-trust authorization (RBAC/ABAC), PII protection, guardrails, and auditability.
+- **LLM performance:** latency and token optimization, async streaming, caching, model routing, and load testing.
+- **Evaluation & observability:** golden datasets, LLM-as-judge and human evaluation, tracing, and production quality metrics.
 
----
+## Selected impact
 
-## Highlights
+- Led development of an enterprise **9-agent banking assistant** handling approximately **15,000 messages per day**.
+- Reduced **P95 latency on a key task path from ~5 minutes to under 10 seconds** through architecture and inference optimizations.
+- Built evaluation and monitoring workflows spanning retrieval quality, answer quality, latency, and user feedback.
+- Lead a small engineering team, from technical design and code reviews to production troubleshooting.
 
-* 📈 **Financial NLP**: before/after SEC filing comparison, terminology mining, and report understanding.
-* 🧠 **Greek‑aware NLP**: tailored tokenization/embeddings and RAG systems that handle Greek morphology well.
-* 🏗️ **AKS for AI/ML**: multi‑user cluster for LLMs, embeddings, and classical ML jobs.
-* 🧭 **Evaluation‑first**: RAG and classifier eval (Accuracy, F1, MCC), cross‑validation at scale.
-* 🔍 **Clustering & Outliers**: uncovering patterns in non‑approved permits and surfacing actionable fixes.
+## Projects & research
 
----
+- **[Agentic Code Reviewer](https://github.com/gkekkis/code-reviewer)** — exploring specialized agents for PR security, testing, logic, performance, and maintainability.
+- **[RAG Foundation](https://github.com/gkekkis/rag-foundation)** — experiments and building blocks for retrieval-augmented applications.
+- **Financial document intelligence** — processing and comparing SEC filings, annual reports, and financial text.
+- **Sovereign credit ratings** — applied and explainable machine learning for credit-risk analysis.
 
-## Selected projects
+*Some production and research work is private; I'm happy to discuss the architecture and approach.*
 
-* **RAG for Financial Reports**: domain‑adapted sentence‑transformers + retrieval evaluation + guardrails.
-* **Permit Productivity Analytics**: clustering & anomaly detection for process improvement.
-* **Telematics Insight Suite**: drivers/violations/risk/fuel models; dashboards for top‑k risky drivers.
-* **Article Scraper @ Scale**: resilient scraping with CAPTCHA awareness and API key rotation.
-* **Work‑Duration Regressor**: XGBoost with inference‑time outlier detection & feature attribution.
+## Tech stack
 
-> If any repo is private or internal, ping me—happy to share summaries or demos.
+- **Languages & backend:** Python, SQL, Bash, FastAPI, Pydantic, async Python
+- **AI & ML:** Azure OpenAI, Microsoft Agent Framework, Transformers, Sentence-Transformers, PyTorch, scikit-learn, XGBoost
+- **Retrieval & data:** Azure AI Search, Qdrant, Cosmos DB, Pandas
+- **Cloud & engineering:** Azure, App Service, API Management, Docker, AKS, GitHub Actions, OpenTelemetry, Dataiku
 
----
+## Beyond building
 
-## Skills
-- **Languages:** Python, SQL, Bash
-- **ML/NLP:** PyTorch, scikit‑learn, XGBoost, Transformers, Sentence‑Transformers, spaCy
-- **LLM/RAG:** Retrieval design & eval, prompt engineering, guardrails, vector search (Azure AI Search/FAISS/Qdrant)
-- **Data & Infra:** Azure, **AKS**, Docker, Dataiku, Pandas/Polars
-- **Web:** Django, HTML/CSS, Bootstrap
-- **Focus:** English/Greek language NLP, financial text, evaluation/monitoring
-
----
-
-## Learning & exploring
-
-* Scalable LLM serving on **AKS** and vector DB best practices
-* RAG evaluation frameworks and **hallucination** mitigation strategies
-* Better Greek NLP tokenization/embeddings and domain lexicons
-
----
+I teach **Financial Applications with Python** and enjoy research at the intersection of **machine learning and finance**. I'm particularly interested in agentic system design, distributed systems, AI security, and developer tooling.
 
 ## Get in touch
 
 [![Email](https://img.shields.io/badge/Email-georgios.kekkis%40gmail.com-informational?logo=gmail)](mailto:georgios.kekkis@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-George%20Kekkis-blue?logo=linkedin)](https://www.linkedin.com/in/george-kekkis-b8b953187/)
-
----
-
-## Looking ahead
-
-I’m aiming to bring these skills to **large‑scale product teams** and, over the next few years, to contribute at **big‑tech scale**. I’m open to collaboration on **RAG, financial NLP, English/Greek‑language models**, and **ML infrastructure** projects.
-
----
-
-<sub>Tip: this profile README is intentionally concise. For live dashboards, notebooks, or longer write‑ups, I can link or embed them from individual repos.</sub>
